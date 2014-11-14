@@ -18,5 +18,6 @@ log('init5');
 $(document)
   .ready(function()
   {
- alert();
-});
+    alert();
+    $('#content').load('./fxtutorialbook.html');
+  });
